@@ -17,4 +17,4 @@ console.log(password);
 document.getElementById("name").innerHTML = `${nome}`;
 document.getElementById("surname").innerHTML = `${surname}`;
 document.getElementById("color").innerHTML = `${color}`;
-document.getElementById("password").innerHTML = `${password}`;
+document.getElementById("password").innerHTML = `Ciao ${nome} questa è la tua password: ${password}`;
